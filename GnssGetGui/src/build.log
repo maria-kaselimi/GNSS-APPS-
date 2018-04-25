@@ -1,0 +1,154 @@
+Compiler version: 4.9 (R2008b)  
+mcc -o 'GnssGetGui' -W 'WinMain:GnssGetGui' -d 'C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\GnssGetGui\src' -T 'link:exe' -v 'C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\gnssget.m' -a 'C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\uigetdate.m' -a 'C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\ST_NOANET_2_2.txt' -a 'C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\ST_NOANET_2_1.txt' -a 'C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\ask3.jpg' -a 'C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\info.jpg' -a 'C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\folder.jpg' -a 'C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\stco.m' -a 'C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\ST_MGEX_2_2.txt' -a 'C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\ST_MGEX_2_1.txt' -a 'C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\ST_EUREF_2_2.txt' -a 'C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\ST_EUREF_2_1.txt' -a 'C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\ST_IGS_2_2.txt' -a 'C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\ST_IGS_2_1.txt' -a 'C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\gpsdate.m'  
+Warning: Name is nonexistent or not a directory: C:\Program Files 
+(x86)\MATLAB\R2008b\toolbox\compiler\patch.  
+Warning: Name is nonexistent or not a directory: C:\Program Files 
+(x86)\MATLAB\R2008b\toolbox\compiler\patch.  
+Processing C:\Program Files (x86)\MATLAB\R2008b\toolbox\matlab\mcc.enc 
+Processing C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\mcc.enc 
+Processing C:\Program Files (x86)\MATLAB\R2008b\toolbox\shared\imageslib\mcc.enc 
+Processing include files... 
+2 item(s) added. 
+Processing directories installed with MCR... 
+The file C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\GnssGetGui\src\mccExcludedFiles.log contains a list of functions excluded from the CTF archive. 
+2 item(s) added. 
+Generating MATLAB path for the compiled application... 
+Created 45 path items. 
+Begin validation of MEX files: Fri Sep 22 21:13:55 2017  
+Validating 'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\images\private\cq.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\images\private\ditherc.mexw32'.  
+Found M-file 'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\images\private\ditherc.m'.  
+MEX file  
+    'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\images\private\ditherc.mexw32'  
+ is valid. It contains 'mexFunction.'  
+Validating 'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\images\private\grayto8.mexw32'.  
+Found M-file 'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\images\private\grayto8.m'.  
+MEX file  
+    'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\images\private\grayto8.mexw32'  
+ is valid. It contains 'mexFunction.'  
+Validating 'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\images\private\imhistc.mexw32'.  
+Found M-file 'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\images\private\imhistc.m'.  
+MEX file  
+    'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\images\private\imhistc.mexw32'  
+ is valid. It contains 'mexFunction.'  
+Validating 'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\images\private\imlincombc.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\images\private\immultmex.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\images\private\ind2rgb8c.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\images\private\int16touint16.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\images\private\intlutc.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\images\private\resizeColumnsCore.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\iptformats\private\bitparse.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\iptformats\private\dicom_decode_rle_segment.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\iptformats\private\dicomlookup_helper.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\iptformats\private\dicomparse.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\iptformats\private\tobits.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\iptutils\iptcheckinput.mexw32'.  
+Found M-file 'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\iptutils\iptcheckinput.m'.  
+MEX file  
+    'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\iptutils\iptcheckinput.mexw32'  
+ is valid. It contains 'mexFunction.'  
+Validating 'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\iptutils\private\iptregistry.mexw32'.  
+Found M-file 'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\iptutils\private\iptregistry.m'.  
+MEX file  
+    'C:\Program Files (x86)\MATLAB\R2008b\toolbox\images\iptutils\private\iptregistry.mexw32'  
+ is valid. It contains 'mexFunction.'  
+End validation of MEX files: Fri Sep 22 21:13:55 2017  
+Warning: Name is nonexistent or not a directory: C:\Program Files 
+(x86)\MATLAB\R2008b\toolbox\compiler\patch.  
+Deleting 18 temporary MEX authorization files.  
+Removing: 'C:\Users\acer\AppData\Local\Temp\mathworks_tmp_1720_7256_1720.auth'.  
+Removing: 'C:\Users\acer\AppData\Local\Temp\mathworks_tmp_1720_3867_1720.auth'.  
+Removing: 'C:\Users\acer\AppData\Local\Temp\mathworks_tmp_1720_23040_1720.auth'.  
+Removing: 'C:\Users\acer\AppData\Local\Temp\mathworks_tmp_1720_26420_1720.auth'.  
+Removing: 'C:\Users\acer\AppData\Local\Temp\mathworks_tmp_1720_12192_1720.auth'.  
+Removing: 'C:\Users\acer\AppData\Local\Temp\mathworks_tmp_1720_6452_1720.auth'.  
+Removing: 'C:\Users\acer\AppData\Local\Temp\mathworks_tmp_1720_6943_1720.auth'.  
+Removing: 'C:\Users\acer\AppData\Local\Temp\mathworks_tmp_1720_984_1720.auth'.  
+Removing: 'C:\Users\acer\AppData\Local\Temp\mathworks_tmp_1720_16116_1720.auth'.  
+Removing: 'C:\Users\acer\AppData\Local\Temp\mathworks_tmp_1720_11195_1720.auth'.  
+Removing: 'C:\Users\acer\AppData\Local\Temp\mathworks_tmp_1720_20803_1720.auth'.  
+Removing: 'C:\Users\acer\AppData\Local\Temp\mathworks_tmp_1720_2692_1720.auth'.  
+Removing: 'C:\Users\acer\AppData\Local\Temp\mathworks_tmp_1720_22755_1720.auth'.  
+Removing: 'C:\Users\acer\AppData\Local\Temp\mathworks_tmp_1720_22609_1720.auth'.  
+Removing: 'C:\Users\acer\AppData\Local\Temp\mathworks_tmp_1720_20373_1720.auth'.  
+Removing: 'C:\Users\acer\AppData\Local\Temp\mathworks_tmp_1720_10642_1720.auth'.  
+Removing: 'C:\Users\acer\AppData\Local\Temp\mathworks_tmp_1720_15091_1720.auth'.  
+Removing: 'C:\Users\acer\AppData\Local\Temp\mathworks_tmp_1720_19639_1720.auth'.  
+Parsing file "C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\gnssget.m" 
+	(Referenced from: "Compiler Command Line").  
+Parsing file "C:\Program Files (x86)\MATLAB\R2008b\toolbox\compiler\deploy\deployprint.m" 
+	(Referenced from: "Compiler Command Line").  
+Parsing file "C:\Program Files (x86)\MATLAB\R2008b\toolbox\compiler\deploy\printdlg.m" 
+	(Referenced from: "Compiler Command Line").  
+Generating file "C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\GnssGetGui\src\GnssGetGui_main.c".  
+Generating file "C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\GnssGetGui\src\GnssGetGui_delay_load.c".  
+Generating file "C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\GnssGetGui\src\readme.txt".  
+Generating file "C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\GnssGetGui\src\GnssGetGui_mcc_component_data.c".  
+Contents of temporary response file 'C:\Users\acer\AppData\Local\Temp\mathworks_tmp_1720_14009':  
+ ......................  
+' -O -v -output "GnssGetGui" -I"C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\GnssGetGui\src" "C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\GnssGetGui\src\GnssGetGui_main.c" "C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\GnssGetGui\src\GnssGetGui_delay_load.c" "C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\GnssGetGui\src\GnssGetGui_mcc_component_data.c" -link exe  -env MCR_DELAYLOAD=/delayload:mclmcrrt79.dll -env MCR_DELAYLIB=delayimp.lib -outdir "C:\Users\acer\Desktop\dsk_exe\GNSS_GET_GUI\GnssGetGui\src"'  
+......................  
+Executing command: mbuild  "@C:\Users\acer\AppData\Local\Temp\mathworks_tmp_1720_14009"  
+ This is mbuild Copyright 1984-2006 The MathWorks, Inc. 
+ 
+-> Default options filename found in C:\Users\acer\AppData\Roaming\MathWorks\MATLAB\R2008b 
+---------------------------------------------------------------- 
+->    Options file           = C:\Users\acer\AppData\Roaming\MathWorks\MATLAB\R2008b\compopts.bat 
+->    COMPILER               = lcc 
+->    Compiler flags: 
+         COMPFLAGS           = -c -Zp8 -I"C:\PROGRA~2\MATLAB\R2008b\sys\lcc\include" -noregistrylookup 
+         OPTIMFLAGS          = -DNDEBUG 
+         DEBUGFLAGS          = -g4 
+         arguments           =  -IC:\USERS\ACER\DESKTOP\DSK_EXE\GNSS_G~1\GNSSGE~4\SRC 
+         Name switch         = -Fo 
+->    Pre-linking commands   =  
+->    LINKER                 = lcclnk 
+->    Link directives: 
+         LINKFLAGS           = -tmpdir "C:\USERS\ACER\DESKTOP\DSK_EXE\GNSS_G~1\GNSSGE~4\SRC\." -L"C:\PROGRA~2\MATLAB\R2008b\sys\lcc\lib" -libpath "C:\PROGRA~2\MATLAB\R2008b\extern\lib\win32\lcc" 
+         LINKFLAGSPOST       = mclmcrrt.lib 
+         Name directive      = -o "C:\USERS\ACER\DESKTOP\DSK_EXE\GNSS_G~1\GNSSGE~4\SRC\GnssGetGui.exe" 
+         File link directive =  
+         Lib. link directive =  
+         Rsp file indicator  = @ 
+->    Resource Compiler      =  
+->    Resource Linker        =  
+---------------------------------------------------------------- 
+ 
+ 
+--> lcc  -IC:\USERS\ACER\DESKTOP\DSK_EXE\GNSS_G~1\GNSSGE~4\SRC -c -Zp8 -I"C:\PROGRA~2\MATLAB\R2008b\sys\lcc\include" -noregistrylookup -FoC:\USERS\ACER\APPDATA\LOCAL\TEMP\MBUILD~1\GnssGetGui_main.obj -IC:\PROGRA~2\MATLAB\R2008b\extern\include -IC:\PROGRA~2\MATLAB\R2008b\simulink\include -DNDEBUG C:\USERS\ACER\DESKTOP\DSK_EXE\GNSS_G~1\GNSSGE~4\SRC\GnssGetGui_main.c 
+ 
+ 
+--> lcc  -IC:\USERS\ACER\DESKTOP\DSK_EXE\GNSS_G~1\GNSSGE~4\SRC -c -Zp8 -I"C:\PROGRA~2\MATLAB\R2008b\sys\lcc\include" -noregistrylookup -FoC:\USERS\ACER\APPDATA\LOCAL\TEMP\MBUILD~1\GnssGetGui_delay_load.obj -IC:\PROGRA~2\MATLAB\R2008b\extern\include -IC:\PROGRA~2\MATLAB\R2008b\simulink\include -DNDEBUG C:\USERS\ACER\DESKTOP\DSK_EXE\GNSS_G~1\GNSSGE~4\SRC\GnssGetGui_delay_load.c 
+ 
+Warning C:\USERS\ACER\DESKTOP\DSK_EXE\GNSS_G~1\GNSSGE~4\SRC\GnssGetGui_delay_load.c: 21  static `void function(void) FailedToLoadMCR' is not referenced 
+0 errors, 1 warnings 
+ 
+--> lcc  -IC:\USERS\ACER\DESKTOP\DSK_EXE\GNSS_G~1\GNSSGE~4\SRC -c -Zp8 -I"C:\PROGRA~2\MATLAB\R2008b\sys\lcc\include" -noregistrylookup -FoC:\USERS\ACER\APPDATA\LOCAL\TEMP\MBUILD~1\GnssGetGui_mcc_component_data.obj -IC:\PROGRA~2\MATLAB\R2008b\extern\include -IC:\PROGRA~2\MATLAB\R2008b\simulink\include -DNDEBUG C:\USERS\ACER\DESKTOP\DSK_EXE\GNSS_G~1\GNSSGE~4\SRC\GnssGetGui_mcc_component_data.c 
+ 
+    Contents of C:\USERS\ACER\APPDATA\LOCAL\TEMP\MBUILD~1\mbuild_tmp.rsp: 
+  C:\USERS\ACER\APPDATA\LOCAL\TEMP\MBUILD~1\GnssGetGui_main.obj  C:\USERS\ACER\APPDATA\LOCAL\TEMP\MBUILD~1\GnssGetGui_delay_load.obj  C:\USERS\ACER\APPDATA\LOCAL\TEMP\MBUILD~1\GnssGetGui_mcc_component_data.obj 
+ 
+ 
+--> lcclnk -o "C:\USERS\ACER\DESKTOP\DSK_EXE\GNSS_G~1\GNSSGE~4\SRC\GnssGetGui.exe" -tmpdir "C:\USERS\ACER\DESKTOP\DSK_EXE\GNSS_G~1\GNSSGE~4\SRC\." -L"C:\PROGRA~2\MATLAB\R2008b\sys\lcc\lib" -libpath "C:\PROGRA~2\MATLAB\R2008b\extern\lib\win32\lcc"  @C:\USERS\ACER\APPDATA\LOCAL\TEMP\MBUILD~1\MBUILD~1.RSP  mclmcrrt.lib 
+ 
+Manually moving GnssGetGui.exe to C:\USERS\ACER\DESKTOP\DSK_EXE\GNSS_G~1\GNSSGE~4\SRC\GnssGetGui.exe 
+Manually moving GnssGetGui.lib to C:\USERS\ACER\DESKTOP\DSK_EXE\GNSS_G~1\GNSSGE~4\SRC\GnssGetGui.lib 
+Manually moving GnssGetGui.exp to C:\USERS\ACER\DESKTOP\DSK_EXE\GNSS_G~1\GNSSGE~4\SRC\GnssGetGui.exp 
+ 
+--> "if exist C:\USERS\ACER\APPDATA\LOCAL\TEMP\MBUILD~1\templib.def del C:\USERS\ACER\APPDATA\LOCAL\TEMP\MBUILD~1\templib.def" 
+ 
+ 
+--> "if exist C:\USERS\ACER\APPDATA\LOCAL\TEMP\MBUILD~1\templib_stub.obj del C:\USERS\ACER\APPDATA\LOCAL\TEMP\MBUILD~1\templib_stub.obj" 
+ 
